@@ -16,8 +16,8 @@ if (count($nomes) > 0) {
     }
 
     $count = 0;
-    foreach ($nomes as $farmacia) {
-        $mensagem .= $farmacia . ($count + 1 == count($nomes) ? "" : $juncoes[$count]);
+    foreach ($nomes as $nome) {
+        $mensagem .= $nome . ($count + 1 == count($nomes) ? "" : $juncoes[$count]);
         $count++;
     }
 }
