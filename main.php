@@ -1,3 +1,5 @@
+<?php
+
 $mensagem = "";
 
 $nomes = ["Maça", 'Uva', "Laranja"];
